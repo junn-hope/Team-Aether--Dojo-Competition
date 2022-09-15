@@ -1067,7 +1067,7 @@
   (symbol (lib_id "Comparator:LM339") (at 146.05 62.23 0) (unit 5)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d3d53759-53c2-459c-9fbe-fdde3d5b71e2)
-    (property "Reference" "U?" (id 0) (at 144.78 60.9599 0)
+    (property "Reference" "U2" (id 0) (at 144.78 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM339" (id 1) (at 144.78 63.4999 0)
@@ -1098,7 +1098,7 @@
   (symbol (lib_id "power:GND") (at 143.51 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dc446d3f-bb1e-4ad8-94ec-be870693c0f3)
-    (property "Reference" "#PWR?" (id 0) (at 143.51 76.2 0)
+    (property "Reference" "#PWR0101" (id 0) (at 143.51 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 143.51 74.93 0))
@@ -1169,7 +1169,7 @@
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
     (path "/dc446d3f-bb1e-4ad8-94ec-be870693c0f3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/2c966f40-766d-457c-9d3a-710432323578"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
@@ -1205,7 +1205,7 @@
       (reference "U1") (unit 2) (value "LM339") (footprint "Package_DIP:DIP-14_W10.16mm")
     )
     (path "/d3d53759-53c2-459c-9fbe-fdde3d5b71e2"
-      (reference "U?") (unit 5) (value "LM339") (footprint "")
+      (reference "U2") (unit 5) (value "LM339") (footprint "")
     )
   )
 )
